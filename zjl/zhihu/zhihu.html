@@ -2,7 +2,9 @@
 <head>
 	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 	<link rel="stylesheet" type="text/css" href="css/zhihu.css">
-	<title>知呼</title>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/zhihu.js"></script>
+	<title>知乎</title>
 </head>
 <body>
 <div id="content">
@@ -58,55 +60,340 @@
 <div id="bottom">
 	<div id="bottomin">
 		<div class="binleft">
-			<a  href="#" class="logo" >
+			<a logoindex="1" href="#" class="logo" >
 				<img src="image/55e8fb6c1_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a logoindex="2" href="#" class="logo" >
 				<img src="image/d73a58cd4_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
-				<img src="image/1ab029e14_m.jpg">
+			<a logoindex="3" href="#" class="logo" >
+				<img src="image/39420a7da_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a  logoindex="4" href="#" class="logo" >
 				<img src="image/424c70919_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a  logoindex="5" href="#" class="logo" >
 				<img src="image/a06fc4c27_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a logoindex="6" href="#" class="logo" >
 				<img src="image/8e7626696_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a  logoindex="7" href="#" class="logo" >
 				<img src="image/bd6b19fc1_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a  logoindex="8" href="#" class="logo" >
 				<img src="image/2188d6b6d_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a  logoindex="9" href="#" class="logo" >
 				<img src="image/f31f31002_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a  logoindex="10" href="#" class="logo" >
 				<img src="image/3df29abc3_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a  logoindex="11" href="#" class="logo" >
 				<img src="image/843e04171_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a  logoindex="12" href="#" class="logo" >
 				<img src="image/70ddd5e0c_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a  logoindex="13" href="#" class="logo" >
 				<img src="image/e77cabe14_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a logoindex="14"  href="#" class="logo" >
 				<img src="image/481297ddc_m.jpg">
 			</a>
-			<a  href="#" class="logo" >
+			<a logoindex="15" href="#" class="logo" >
 				<img src="image/bb85a3e1b_m.jpg">
 			</a>
 			
 		</div>
 		<div class="binrit">
-			<ul class="ulcom"></ul>
+			<ul id="ul1" class="ulcom ulactive">
+				<a  href="#" class="ullogo" >
+				<img src="image/55e8fb6c1_m.jpg">
+			    </a>
+			    <div class="title">
+			    	<div class="title1">
+			    		<a href="#" class="author">金晨羽</a>
+			    		<span>眼见他起高楼，眼见他宴宾客</span>
+			    	</div>
+			    	<div class="title2">在知乎回答了 64 个问题，57470 人关注她。</div>
+			    </div>
+			    <div class="line"></div>
+			    <div class="content">
+			    	<div class="answer">
+						<span class="vote">
+								90
+						</span>
+						<a class="answertxt"  href="#">「化学物质」是不是一个伪概念？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+								885
+						</span>
+						<a class="answertxt"  href="#">如何克服 presentation 恐惧症？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+								512
+						</span>
+						<a class="answertxt"  href="#">水滴落在水盆里，溅起的水是水滴的水还是水盆里的水？为什么？</a>
+					</div>
+			    </div>
+			    <div class="answerbottom">
+					<span>金晨羽在 <a href="">物理化学</a>、<a href="">表面科学</a>、等话题下获得了 4854 个赞同</span>
+				</div>
+			</ul>
+			<ul id="ul2" class="ulcom ">
+				<a  href="#" class="ullogo" >
+				<img src="image/d73a58cd4_m.jpg">
+
+			    </a>
+			    <div class="title">
+			    	<div class="title1">
+			    		<a href="#" class="author">Cat Chen</a>
+			    		<span>上知乎，求欢乐</span>
+			    	</div>
+			    	<div class="title2">在知乎回答了 414 个问题，59049 人关注他。</div>
+			    </div>
+			    <div class="line"></div>
+			    <div class="content">
+			    	<div class="answer">
+						<span class="vote">
+							1981
+						</span>
+						<a class="answertxt"  href="#">为什么女人一方面说要找成熟的男人，另一方面又说讨厌理性的男人？难道成熟的男人不应该是一个理性的男人吗？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+							1591
+						</span>
+						<a class="answertxt"  href="#">为什么在美国留学的女生找男朋友要求都特别高？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+								512
+						</span>
+						<a class="answertxt"  href="#">如何做到流畅阅读英文资料和听懂国外公开课？</a>
+					</div>
+			    </div>
+			    <div class="answerbottom">
+					<span>Cat Chen在 <a href=""> Facebook</a>、<a href="">两性关系</a>、<a href="">恋爱</a>等话题下获得了 18135 个赞同</span>
+				</div>
+			</ul>
+		    <ul class="ulcom ">
+				<a  href="#" class="ullogo" >
+				<img src="image/424c70919_m.jpg">
+
+			    </a>
+			    <div class="title">
+			    	<div class="title1">
+			    		<a href="#" class="author">张佳玮</a>
+			    		<span>五月新书《迈克尔-乔丹和他的时代》</span>
+			    	</div>
+		    	<div class="title2">在知乎回答了 1901 个问题，574175 人关注他。</div>
+			    </div>
+			    <div class="line"></div>
+			    <div class="content">
+			    	<div class="answer">
+						<span class="vote">
+							16.9K
+						</span>
+						<a class="answertxt"  href="#">你爱上某一个人时，最奇特的一次是因为什么？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+							9801
+						</span>
+						<a class="answertxt"  href="#">什么样的男人才算是成熟的男人？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+								5020	
+						</span>
+						<a class="answertxt"  href="#">你有什么经历证明了「念念不忘，必有回响」？</a>
+					</div>
+			    </div>
+			    <div class="answerbottom"><span>张佳玮在 <a href=""> 心理学</a>、<a href="">人生</a>、<a href="">恋爱</a>等话题下获得了 491468个赞同</span>
+				</div>
+			</ul>
+			<ul id="ul3" class="ulcom ">
+				<a  href="#" class="ullogo" >
+				<img src="image/39420a7da_m.jpg">
+			    </a>
+			    <div class="title">
+			    	<div class="title1">
+			    		<a href="#" class="author">苹果公司 </a>
+			    		<span>(Apple Inc.)</span>
+			    	</div>
+		    	<div class="title2">367470 人关注该话题，1000 个精华回答</div>
+			    </div>
+			    <div class="line"></div>
+			    <div class="content">
+			    	<div class="answer">
+						<span class="vote">
+							3229
+						</span>
+						<a class="answertxt"  href="#">在互联网和移动互联网领域，相对苹果和谷歌，微软落后了多少？</a>
+					</div>
+					<div class="answer ">
+						<span class="vote">
+							2902
+						</span>
+						<a class="answertxt"  href="#">你最孤独的时刻是什么？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+								5020	
+						</span>
+						<a class="answertxt"  href="#">为什么一般的舆论都认为 Apple 或 iPhone 不行了，各种 Android 机舆论却很好？</a>
+					</div>
+			    </div>
+			   <div class="answer ">
+						<span class="vote">
+							2385
+						</span>
+						<a class="answertxt"  href="#">iOS 不越狱的理由有哪些？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+							1933
+						</span>
+						<a class="answertxt"  href="#">苹果有哪些影像技术积累，为什么 iPhone 的拍照效果比其它手机优秀？</a>
+					</div>
+			</ul>
+			<ul id="ul4" class="ulcom ">
+				<a  href="#" class="ullogo" >
+				<img src="image/424c70919_m.jpg">
+			    </a>
+			    <div class="title">
+			    	<div class="title1">
+			    		<a href="#" class="author">郑金条</a>
+			    		<span>@游戏邦 @慌乱的岛 微信：zhengjintiao</span>
+			    	</div>
+		    	<div class="title2">367470 人关注该话题，1000 个精华回答</div>
+			    </div>
+			    <div class="line"></div>
+			    <div class="content">
+			    	<div class="answer">
+						<span class="vote">
+							3229
+						</span>
+						<a class="answertxt"  href="#">有哪些格调特别高的手机游戏？</a>
+					</div>
+					<div class="answer answers ">
+						<span class="vote">
+							2902
+						</span>
+						<a class="answertxt"  href="#">你最孤独的时刻是什么？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+								5020	
+						</span>
+						<a class="answertxt"  href="#">网游的掉宝率真的是随机的吗？</a>
+					</div>
+			    </div>
+			   <div class="answer answers">
+						<span class="vote">
+							2385
+						</span>
+						<a class="answertxt"  href="#">iOS 不越狱的理由有哪些？</a>
+					</div>
+					 <div class="answerbottom">
+					<span>Cat Chen在 <a href=""> Facebook</a>、<a href="">两性</a>、<a href="">恋爱</a>等话题下获得了 18135 个赞同</span>
+				</div>
+			</ul>
+			<ul id="ul5" class="ulcom ">
+				<a  href="#" class="ullogo" >
+				<img src="image/a06fc4c27_m.jpg">
+			    </a>
+			    <div class="title">
+			    	<div class="title1">
+			    		<a href="#" class="author">MoonMonster </a>
+			    		<span>长文流... www.jianjia360.com</span>
+			    	</div>
+		    	<div class="title2">367470 人关注该话题，1000 个精华回答</div>
+			    </div>
+			    <div class="line"></div>
+			    <div class="content">
+			    	<div class="answer">
+						<span class="vote">
+							3229
+						</span>
+						<a class="answertxt"  href="#">在互联网和移动互联网领域，相</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+							2902
+						</span>
+						<a class="answertxt"  href="#">你最孤独的时刻是什么？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+								5020	
+						</span>
+						<a class="answertxt"  href="#">为什么一般的舆论都认为 Apple </a>
+					</div>
+			    </div>
+			   <div class="answer answers">
+						<span class="vote">
+							2385
+						</span>
+						<a class="answertxt"  href="#">iOS 不越狱的理由有哪些？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+							1933
+						</span>
+						<a class="answertxt"  href="#">苹果有哪些影像技术积累，为什么 iPhone 的拍照效果比其它手机优秀？</a>
+					</div>
+			</ul>
+			<ul id="ul6" class="ulcom ">
+				<a  href="#" class="ullogo" >
+				<img src="image/8e7626696_m.jpg">
+			    </a>
+			    <div class="title">
+			    	<div class="title1">
+			    		<a href="#" class="author">苹果公司 </a>
+			    		<span>(Apple Inc.)</span>
+			    	</div>
+		    	<div class="title2">367470 人关注该话题，1000 个精华回答</div>
+			    </div>
+			    <div class="line"></div>
+			    <div class="content">
+			    	<div class="answer">
+						<span class="vote">
+							3229
+						</span>
+						<a class="answertxt"  href="#">在互联网和移动互联网领域，相对苹果和谷歌，微软落后了多少？</a>
+					</div>
+					<div class="answer ">
+						<span class="vote">
+							2902
+						</span>
+						<a class="answertxt"  href="#">你最孤独的时刻是什么？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+								5020	
+						</span>
+						<a class="answertxt"  href="#">为什么一般的舆论都认为 Apple 或 iPhone 不行了，各种 Android 机舆论却很好？</a>
+					</div>
+			    </div>
+			   <div class="answer ">
+						<span class="vote">
+							2385
+						</span>
+						<a class="answertxt"  href="#">iOS 不越狱的理由有哪些？</a>
+					</div>
+					<div class="answer answers">
+						<span class="vote">
+							1933
+						</span>
+						<a class="answertxt"  href="#">苹果有哪些影像技术积累，为什么 iPhone 的拍照效果比其它手机优秀？</a>
+					</div>
+			</ul>
 		</div>
 	</div>
 </div>

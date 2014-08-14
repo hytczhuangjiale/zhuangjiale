@@ -38,12 +38,32 @@ body{background-color: rgb(241, 245, 248);}
 
 #bottom{position: relative;z-index:8;width: 100%;min-width: 1349px;height:400px;margin:0px auto;background-color: rgb(241, 245, 248);}
 #bottomin{width: 740px;height:400px;margin: 0px auto;}
-.binleft{width: 228px;height: 360px;float: left;margin-top: 50px;background-color: #000}
-.binrit{width: 440px;height: 301px;float: right;padding: 27px 30px;margin-top: 50px;background-color: #000}
+.binleft{width: 228px;height: 360px;float: left;margin-top: 50px;}
+.binrit{width: 440px;height: 301px;float: right;padding: 27px 30px;margin-top: 50px;background-color: #fff}
 
 .logo {width: 62px;height: 62px;margin: 0 10px 10px 0;float: left;position: relative;background: #fff;box-shadow: 0 1px 1px rgba(100,100,100,.15);border-radius: 32px;cursor: pointer;display: block;}
 .logo img{width: 50px;height: 50px;margin:6px;float: left;border-radius: 32px;cursor: pointer;display: block;}
 .logo img:hover{width: 62px;height: 62px;margin: 0 10px 10px 0;}
 
-.ulcom{width: 440px;height: 301px;display: block;}
+.ulcom{width: 440px;height: 301px;display: none;}
+.ulactive{display: block;}
+.ullogo{display: block;height: 42px;width: 42px;display: block;float: left;}
+.ullogo img{width: 42px;height:42px;margin:6px;float: left;border-radius: 32px;cursor: pointer;display: block;}
+.title{font-size: 15px;line-height: 25.5px;color: #7491A8;width: 378px;height: 53px;margin-left: 62px;font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;}
+.author{margin-right: 8px;color: #7491A8;display: inline-block;float: left;}
+.author:hover{text-decoration: underline;}
+.title1 span{display: inline-block;float: left;}
+.title1{display:block;float: left;}
+.title2{display: block;float: left;}
+.line{width:440px;height:0px;border-top: 1px solid #F3F5F7;margin: 18px 0; }
+.content{display: block;float: left; }
+.answer{display: inline-block;height: auto;width: auto;color:  #7491A8;font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;font-size: 15px;line-height: 25.5px}
+.answers{margin-top: 12px;}
+.answerbottom{border-top: 1px solid #F3F5F7;margin-top: 20px;display: inline-block;height: auto;width: auto;color:  #7491A8;font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;font-size: 15px;line-height: 50px}
+.answerbottom a{color:  #7491A8;}
+.answerbottom a:hover{text-decoration: underline;}
+
+.vote{border-radius: 3px;display: block;float: left;width: 38px;height: 25px;background-color: rgb(176, 197, 214);cursor: pointer;color: #fff;text-align: center;}
+.answertxt{height: auto;margin-left: 8px;display:inline-block;float: left;color:  #7491A8;width: 390px;}
+.answertxt:hover{text-decoration: underline;}
 #footer{width: 100%;min-width: 1349px;height:100px;margin:0px auto;padding-bottom: 60px;background-color: #efefef}
