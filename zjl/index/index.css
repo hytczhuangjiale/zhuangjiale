@@ -1,0 +1,28 @@
+body/*{background-image: url("bg12.jpg");}*/{background-image: url("bg5.gif");}
+div{text-align: center;font-size: 12px;}
+img{border: 0}
+ul,li{list-style: none;}
+*{margin: 0; padding:0;}
+a{text-decoration: none;}
+#all{background-image: url("bg13.gif");width: 980px;height: 600px;background-color: #efefef;border-radius: 5px;margin: 0px auto;cursor: pointer;margin-top: 10px;}
+#title{width:980px;height:90px; text-shadow:2px 2px 2px #999;}
+#title1{width:980px;height:60px;font-size: 26px;font-family: 黑体;line-height:60px;text-align: center; }
+#title2{width:980px;height:30px;font-size: 22px;font-family: 黑体;line-height:30px;text-align: center; }
+#title2 a{font-size: 18px;font-family: 黑体;line-height:30px;text-align: center; color: #000}
+#title2 a:hover{text-decoration: underline;}
+#content{width:960px;height:510px;margin:0px auto;border-radius: 5px;}
+#content1{width:940px;height:230px;margin:12px auto;}
+#content2{width:940px;height:230px;margin:12px auto;}
+.cons{width:220px;height:230px;margin: 0px auto;border: 1px solid #ccc;float: left;border-radius: 5px;margin-left: 8px;margin-right: 5px;}
+.constit{width:220px;height: 30px;margin: 0px auto;float:left;font-size: 18px;font-family: 黑体;line-height:30px;text-shadow:1px 1px 4px #fff;}
+.constit a{color: #000}
+.constit a:hover{text-decoration: underline;}
+.conscon{width:200px;height: 200px;margin: 0px auto;background-color: green;border-radius: 5px;float:left;margin-left: 10px;}
+.conscon img{width:200px;height: 200px;}
+.btn{width: 200px;height: 65px;background-color: #f9f9f9;border: 1px solid #bbb;border-radius: 5px;margin: 30px auto;cursor: pointer;}
+#ditc{background-color: #fff;width: 420px;height: 30px;padding: 5px;margin: 20px auto;border-radius: 3px;border: 1px solid #bbb;box-shadow: 1px 1px #999}
+#ditdata{width: 200px;height: 30px;float: left;}
+#dittime{width: 160px;height: 30px;float:right;}
+.dit{width: 20px;height: 30px;background-image:url("time.png");float: left;}
+.heng{background-position: 0px -330px;}
+.dian{background-position: 0px -300px;}

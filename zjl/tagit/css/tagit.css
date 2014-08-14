@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;}
+
+#tag{width: 364px;height: 35px;background-color: #f9f9f9;margin: 100px auto;}
+.td{width: 180px;height: 33px;float: left;border: 1px solid #c2c4c6;background-color: #fff;}
+.tagl{border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
+.tagr{border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
+.active{border: 1px solid #5ab4e6;background-color:#5ab4e6;}
