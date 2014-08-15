@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border:0;}
+@font-face { 
+font-family:food; 
+src: url('food.otf'); 
+} 
+
+#header{width: 100%;min-width: 1349px;height: 64px;margin-bottom: 10px;background-color: rgb(171, 24, 47);}
+#nav{width: 990px;height: 34px;padding-top: 15px;margin: 0 auto;}
+#navpic{width:120px;height: 34px;float: left;}
+#search{width: 675px;height: 34px;float: right;}
+#search li{display: inline-block;height: 33px;padding: 0 15px;}
+.searchli{color: rgb(255, 255, 255);cursor: auto;display: inline;font-family: "food";font-size: 26px;letter-spacing: -.01em;height: auto;line-height: 33.6px;text-align: left;text-transform: uppercase;}
+.searchli:hover{color: rgb(220,220,220)}
+#search #searchin{float: right;color: rgb(34, 34, 34);display: block;font-size: 24px;height: 34px;line-height: 33px;text-align: left;width: 241px;padding: 0px}
+#sehinput{background-color: rgb(103, 14, 28);color: rgb(255, 255, 255);cursor: auto;display: block;float: left;font-family: arial, sans-serif;font-size: 12px;font-weight: bold;height: 31px;width: 208px;margin-right: 3px;max-width: 210px;border: 0px;padding-left: 12px;}
+#sehpic{outline: none;}
+
+#content{width: 1349px;height: 875px;margin: 0 auto;}
+#footer{width: 1349px;height: 208px;margin: 0 auto;}
+#contentl{width: 179px;height: 875px;float: left;}
+#contentm{width: 990px;height: 865px;float: left;}
+#contentr{width: 179px;height: 875px;float: right;}
