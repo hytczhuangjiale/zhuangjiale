@@ -12,7 +12,7 @@ body{background-color: rgb(244, 244, 244);}
 #nav{width: 43px;height: 40px;float: left;position: relative;}
 #nav li{width: 43px;height: 40px;display: block;}
 #navpic{width: 24px;height: 27px;padding: 13px 12px 0 7px;display: block;}
-#navpic span{width: 24px;height:13px;display: block;background-image:url("images/t_it.png");}
+#navpic span{width: 24px;height:13px;display: block;background-image:url("images/t_icon.png");}
 
 .navbox{display:none;background-attachment: scroll;background-clip: border-box;background-color: rgb(35, 35, 41);background-origin: padding-box;background-size: auto;color: rgb(102, 102, 102);font-family: 微软雅黑;font-size: 12px;height: auto;left: 0px;line-height: 18px;list-style-position: outside;overflow-x: hidden;overflow-y: hidden;position: absolute;text-align: left;top: 40px;width: 186px;z-index: 100;}
 .navboxin{color: rgb(255, 255, 255);cursor: auto;display: block;float: left;font-family: 微软雅黑;font-size: 14px;height: 40px;line-height: 40px;list-style-position: outside;text-align: center;text-decoration: none solid rgb(255, 255, 255);white-space: nowrap;width: 93px;}

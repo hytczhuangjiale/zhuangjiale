@@ -1,0 +1,53 @@
+*{margin: 0;padding: 0;font-family: 宋体,Arial;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+img{border:0;}
+div{text-align: center;font-size: 12px;}
+
+
+#qqchat{width: 280px;height: 580px;margin-left:200px;}
+#top{width:240px;height:75px;padding: 2px 20px 2px 20px;background-color: #000;}
+#top1{width: 240px;height: 46px;}
+#top2{height: 15px;margin-top: 6px;line-height: 22px;}
+.toptx{position: relative; float: left; width: 40px; height: 40px; display: block; background-image: url("images/g.jpg");box-shadow: rgb(0, 0, 0) 1px 1px 5px 0px;border: 3px solid #fff;}
+#txstate{position: absolute; left: 30px; top: 28px;}
+.txstateimg{float: left; display: block; width: 10px; height: 10px; background-image: url("images/state_sprite.gif"); margin-right: 2px;margin-top: 2px;}
+.topzl{text-align: left;width: 180px;height: 46px;float: right;}
+.topname{display: block;width: 180px;height: 22px;font-size: 16px;height: 22px;text-shadow: 0 0 3px snow,0 0 3px snow,0 0 3px snow,0 0 3px snow;font-size: 16px;}
+.topshuo{display: block;width: 180px;height: 22px;font-size: 12px;line-height: 12px;text-shadow: 0 0 3px snow,0 0 3px snow,0 0 3px snow,0 0 3px snow;margin-top: 2px;}
+.iconA{ display: block; width: 15px; height: 15px; background-image: url("images/icons_list.png"); float: left; margin-right: 6px; line-height: 22px;}
+.icon01{ background-position: 0 -1px;} 
+.icon02{ background-position: -20px -1px;} 
+.icon03{ background-position: -40px -1px;} 
+.icon04{ background-position: -60px -1px;} 
+.icon05{ background-position: -81px -1px;} 
+.icon06{ background-position: -103px -1px;} 
+.icon07{ background-position: -122px -1px;} 
+.icon08{ background-position: -144px -1px;} 
+.icon09{ background-position: -166px -1px;} 
+
+
+#content{width: 280px;height: 500px;background-color: #efefef;}
+.huihua{width: 280px;height: 450px;}
+
+.huihuatop{width: 230px; height: 19px; background-image: linear-gradient(#555, #222);  border-top-left-radius: 6px; border-top-right-radius: 6px;  text-align: center; font-size: 18px; color: #FFF; padding: 13px 30px 13px 20px;font-family: "微软雅黑";} 
+.huihuacon{width: 280px; height: 405px; overflow: auto;}
+#footer{width: 280px;height: 50px;display: block;background-image: linear-gradient(#555, #222);border-bottom-left-radius: 6px;border-bottom-right-radius: 6px;}
+.footerli{width: 68px;height: 50px;cursor: pointer;border-right: 1px solid #222;border-left: 1px solid #555;float: left;}
+.footl{border-left: 0px;}
+.footr{border-right: 0px;}
+.footlipic{display: inline-block;width: 34px;height: 34px;}
+
+.footlipic1{ background-image: url("images/tab_icon_conversation.png"); background-size: 34px 34px;}
+.footlipic2{ background-image: url("images/tab_icon_contact.png"); background-size: 34px 34px;}
+.footlipic3{ background-image: url("images/tab_icon_plugin.png"); background-size: 34px 34px;}
+.footlipic4{ background-image: url("images/tab_icon_setup.png"); background-size: 34px 34px;}
+.footlipic01{ background-image: url("images/tab_icon_conversation_selected.png"); background-size: 34px 34px;}
+.footlipic02{ background-image: url("images/tab_icon_contact_selected.png"); background-size: 34px 34px;}
+.footlipic03{ background-image: url("images/tab_icon_plugin_selected.png"); background-size: 34px 34px;}
+.footlipic04{ background-image: url("images/tab_icon_setup_selected.png"); background-size: 34px 34px;}
+
+.footlitxt{display: block;height: 12px;color: #CCC;font-size: 12px;text-align: center;font-family: "微软雅黑";line-height: 12px;}
+#bottom{width: 280px;height: 45px;background-color: #efefef;position: relative;}
+#jtleft{cursor: pointer;width: 19px;height: 19px;display: block;position: absolute;background-image: url("images/arrow_bottom.png");background-position: -2px -2px;top: 25px;}
+#jtright{position: absolute;cursor: pointer;display: block;width: 19px;height: 19px;background-image: url("images/arrow_bottom.png");background-position: -25px -2px;top: 25px;left: 30px;}
