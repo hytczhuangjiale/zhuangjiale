@@ -3,10 +3,12 @@ ul,li{list-style: none;}
 a{text-decoration: none;}
 img{border:0;}
 div{text-align: center;font-size: 12px;}
-
+body{ background-image: url("images/01.jpg"); background-size: 100% 110%;}
+::-webkit-scrollbar {width: 5px;}
+::-webkit-scrollbar-thumb {border-radius: 10px;background: rgba(1,1,1,0.5);opacity: 0.8;}
 
 #qqchat{width: 280px;height: 580px;margin-left:200px;}
-#top{width:240px;height:75px;padding: 2px 20px 2px 20px;background-color: #000;}
+#top{width:240px;height:75px;padding: 2px 20px 2px 20px;}
 #top1{width: 240px;height: 46px;}
 #top2{height: 15px;margin-top: 6px;line-height: 22px;}
 .toptx{position: relative; float: left; width: 40px; height: 40px; display: block; background-image: url("images/g.jpg");box-shadow: rgb(0, 0, 0) 1px 1px 5px 0px;border: 3px solid #fff;}
@@ -27,11 +29,51 @@ div{text-align: center;font-size: 12px;}
 .icon09{ background-position: -166px -1px;} 
 
 
-#content{width: 280px;height: 500px;background-color: #efefef;}
+#content{width: 280px;height: 500px;}
 .huihua{width: 280px;height: 450px;}
+.huihuatop{position:relative;width: 230px; height: 19px; background-image: linear-gradient(#555, #222);  border-top-left-radius: 6px; border-top-right-radius: 6px;  text-align: center; font-size: 18px; color: #FFF; padding: 13px 30px 13px 20px;font-family: "微软雅黑";} 
+.yifu{background-size:25px 25px;height:25px;width: 25px;display: block;left: 233px;top:12px;position: absolute;background-image:url("images/yifu1.png");opacity: 0.6}
+.huihuacon{width: 280px; height: 405px; overflow: auto;background-color: #fff;}
+.lianxirencon{overflow :hidden;}
+.chatA{ text-align: left;width: 261px; height: 57px; padding: 2px 1px 2px 1px;background-image: linear-gradient(#FFF, #F1F1F1); cursor: pointer;}
+.chatAHeader{position: relative; width: 40px; height: 40px; margin: 8px 8px 8px 8px;  background-size: 40px 40px; display: block; float: left;}
+.chatAHeader img{ width: 40px; height: 40px;  background-size: 40px 40px; display: block; float: left;}
+.chatARight{ width: 200px; height: 57px; float: left;}
+.chatName{text-align: left;float: left;display: inline-block;  height: 22px; padding: 4px 0 0 4px; font-family: "微软雅黑"; font-weight: 400; font-size: 16px; line-height: 23px;}
+.chatNameA{text-align: left;float: left;display: inline-block; padding: 4px 0 0 2px; font-size: 12px; line-height: 23px; color: #AAA;}
+.chatInfo{ text-align: left;display: block; width: 200px; height: 23px;  padding: 4px 0 4px 6px; font-size: 12px; line-height: 23px; color: #AAA; float: left; overflow:hidden;}
 
-.huihuatop{width: 230px; height: 19px; background-image: linear-gradient(#555, #222);  border-top-left-radius: 6px; border-top-right-radius: 6px;  text-align: center; font-size: 18px; color: #FFF; padding: 13px 30px 13px 20px;font-family: "微软雅黑";} 
-.huihuacon{width: 280px; height: 405px; overflow: auto;}
+
+.lxrtop{ width: 280px ; height: 35px; cursor: pointer;}
+.lxrtopli{display: block; width: 93px; height: 16px; float: left; padding: 10px 0 10px 0; border-bottom: 2px solid #ccc;}
+.lxrtoplicolor{ color: #0AA7FF; border-bottom: 2px solid #0AA7FF;}
+.lxrtopa{display: block; font-family: 微软雅黑; line-height: 16px;border-right: 1px solid #d8d8d8; display: block;  width: 93px; height: 16px; text-align: center; font-size: 16px;}
+.friend{width: 100%; height: 370px; overflow-y: auto;overflow-x :hidden;}
+.group{width: 100%; min-height: 40px; border-bottom: 1px solid #CCC; margin-top: 2px;}
+.groupinner{ width: 240px; height: 20px; display: block; padding: 10px 28px 10px 10px; cursor: pointer; }
+.groupic{margin-top: 4px; width: 14px; height: 14px;display: block; background-image: url("images/open_arrow.png"); background-size: 14px 14px; background-repeat: no-repeat; float: left;}
+.groupname{float: left; color: #000; padding-left: 4px; font-size: 16px;display: inline-block; font-family: 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.groupnum{float: right; color: gray; font-size: 12px;font-family: 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+.lxrconul{ width: 100%; height: auto; display:none;}
+.lxrconulcon{width: 100%; height: 56px; background-color: #F5F5F5; border:1px solid #e3e3e3; border-bottom: 0; margin-top: 2px; background-image: linear-gradient(#F5F5F5, #F5F5F5);}
+.disappear{display: none;}
+
+
+.groupsli{width: 262px; height: 41px;border-color: #CCC; border-bottom: 1px solid #CCC; background-color: #F5F5F5; padding: 8px;}
+.groupsa{ display: block; width: 40px; height: 40px; background-image: url("images/qun.jpg"); float: left;}
+.groupsli span{font-family: '微软雅黑','Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 16px; float: left; padding: 4px 0 0 12px;}
+.talk{display: block; width: 40px; height: 40px; background-image: url("images/talk.png"); background-repeat: no-repeat; background-size: 40px 40px; float: left;}
+
+.findcon{width: 280px; height: 93px; display: block;}
+.findli{float: left; border: 1px solid #eceef2;border-bottom-color: #c1c7d2;border-right-color: #c1c7d2;display: block; width: 91px; height: 93px; background-image: linear-gradient(rgb(231, 232, 235), rgb(218, 219, 224) 50%, rgb(199, 203, 210) 75%, rgb(211, 214, 219) 95%, rgb(211, 214, 221));background-color: rgb(218, 219, 224);}
+.findpic{width: 54px; height: 54px; margin: 8px 20px 4px 20px; display: block;}
+.findpic01{ background-image: url("images/plugin_icon_qzone.jpg"); background-size: 54px 54px;}
+.findpic02{background-image: url("images/plugin_icon_qmail.jpg"); background-size: 54px 54px;}
+.findpic03{background-image: url("images/plugin_icon_qq_portal.png"); background-size: 54px 54px;}
+.findword{text-align: center; display: block; font-size: 13px; height: 19px; line-height: 19px;font-family: 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+
 #footer{width: 280px;height: 50px;display: block;background-image: linear-gradient(#555, #222);border-bottom-left-radius: 6px;border-bottom-right-radius: 6px;}
 .footerli{width: 68px;height: 50px;cursor: pointer;border-right: 1px solid #222;border-left: 1px solid #555;float: left;}
 .footl{border-left: 0px;}
@@ -42,12 +84,15 @@ div{text-align: center;font-size: 12px;}
 .footlipic2{ background-image: url("images/tab_icon_contact.png"); background-size: 34px 34px;}
 .footlipic3{ background-image: url("images/tab_icon_plugin.png"); background-size: 34px 34px;}
 .footlipic4{ background-image: url("images/tab_icon_setup.png"); background-size: 34px 34px;}
-.footlipic01{ background-image: url("images/tab_icon_conversation_selected.png"); background-size: 34px 34px;}
-.footlipic02{ background-image: url("images/tab_icon_contact_selected.png"); background-size: 34px 34px;}
-.footlipic03{ background-image: url("images/tab_icon_plugin_selected.png"); background-size: 34px 34px;}
-.footlipic04{ background-image: url("images/tab_icon_setup_selected.png"); background-size: 34px 34px;}
+.footlipichuihua{ background-image: url("images/tab_icon_conversation_selected.png"); background-size: 34px 34px;}
+.footlipiclianxiren{ background-image: url("images/tab_icon_contact_selected.png"); background-size: 34px 34px;}
+.footlipicfaxian{ background-image: url("images/tab_icon_plugin_selected.png"); background-size: 34px 34px;}
+.footlipicshezhi{ background-image: url("images/tab_icon_setup_selected.png"); background-size: 34px 34px;}
 
 .footlitxt{display: block;height: 12px;color: #CCC;font-size: 12px;text-align: center;font-family: "微软雅黑";line-height: 12px;}
-#bottom{width: 280px;height: 45px;background-color: #efefef;position: relative;}
-#jtleft{cursor: pointer;width: 19px;height: 19px;display: block;position: absolute;background-image: url("images/arrow_bottom.png");background-position: -2px -2px;top: 25px;}
-#jtright{position: absolute;cursor: pointer;display: block;width: 19px;height: 19px;background-image: url("images/arrow_bottom.png");background-position: -25px -2px;top: 25px;left: 30px;}
+#bottom{width: 280px;height: 45px;position: relative;}
+#jtleft{cursor: pointer;width: 19px;height: 19px;display: block;position: absolute;background-image: url("images/arrow.png");background-position: -2px -2px;top: 25px;}
+#jtleft:hover{background-position:-2px -42px}
+#jtright{position: absolute;cursor: pointer;display: block;width: 19px;height: 19px;background-image: url("images/arrow.png");background-position: -25px -2px;top: 25px;left: 30px;}
+#jtright:hover{background-position:-25px -42px}
+#yijianfankui{ cursor: pointer; position: absolute; width: 80px; height: 17px; display: block; font-size: 12px; line-height: 17px; font-family: "微软雅黑"; text-align: center; top: 25px; left: 100px; color: #FFF; background-color: rgba(0,0,0,0.3); border-radius: 7px;}

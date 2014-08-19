@@ -17,10 +17,10 @@ $(function(){
 			$(this).next().show(1000);
 	 		$(this).next().next().show(1000);
 	 		open=$(this).attr("openindex",true);
-	 		 return false;
 		 }else if(open=='true'){
 		 	$(this).next().hide(500);
  	 		$(this).next().next().hide(500);
+ 	 		open=$(this).attr("openindex",false);
 		};
  	   
 	});	

@@ -6,7 +6,7 @@
 	<script type="text/javascript" src="js/webqq.js"></script>
 	<title>SmartQQ</title>
 </head>
-<body>
+<body bgindex="1">
 	<div id="qqchat">
 		<div id="top">
 			<div id="top1">
@@ -32,36 +32,443 @@
 		</div>
 		<div id="content">
 			<!-- 会话 -->
-			<div class="huihua">
-				<div class="huihuatop">会话</div>
+			<div id="huihua" class="huihua "  >
+				<div class="huihuatop">会话<span colorindex="1" class="yifu"></span></div>
 				<div class="huihuacon">
-
-					
-					
-
+					<!-- content -->
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/qingfen.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName">百度亲峰8---总群</a>
+							<span class="chatNameA"></span>
+							<a class="chatInfo">才23啊</a>
+						</div>
+					</div>
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/jiangjiang.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName">江晓玲</a>
+							<span class="chatNameA">(梦做一半也不美。)</span>
+							<a class="chatInfo">(惊讶)(惊讶)(惊讶)</a>
+						</div>
+					</div>
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/yubaba.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName">俞佳炜</a>
+							<span class="chatNameA">（Echo）</span>
+							<a class="chatInfo">都没过12点~</a>
+						</div>
+					</div>
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/xiaoyuke.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName">小羽柯</a>
+							<span class="chatNameA">（翎）</span>
+							<a class="chatInfo"></a>
+						</div>
+					</div>
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/piaoxiang.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName">老爸</a>
+							<span class="chatNameA">（飘香居士）</span>
+							<a class="chatInfo"></a>
+						</div>
+					</div>
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/qianqian.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName">浅浅</a>
+							<span class="chatNameA">（青丘白深）</span>
+							<a class="chatInfo">东瓶西镜放，恨不能遗忘。</a>
+						</div>
+					</div>
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/qingfen.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName">秀恩爱，分得快</a>
+							<span class="chatNameA"></span>
+							<a class="chatInfo">鸭子你坟蛋！！</a>
+						</div>
+					</div>
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/gui.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName">小鬼</a>
+							<span class="chatNameA">（狗史燕窝）</span>
+							<a class="chatInfo"></a>
+						</div>
+					</div>
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/xinjiang.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName">大新疆</a>
+							<span class="chatNameA">（单曲循环）</span>
+							<a class="chatInfo"></a>
+						</div>
+					</div>
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/pan.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName">潘玥城</a>
+							<span class="chatNameA">(玥~若熙)</span>
+							<a class="chatInfo"></a>
+						</div>
+					</div>
+					<div class="chatA" >
+						<a class="chatAHeader"><img src="image/xiao.jpg"></a>
+						<div class="chatARight">
+							<a class="chatName"> 蒋潇</a>
+							<span class="chatNameA">(つ    愿       ˉ)</span>
+							<a class="chatInfo">、        喜欢上了指南针.</a>
+						</div>
+					</div>				
 				</div>
-				<ul id="footer">
-					<li class="footerli footl">
-						<a class="footlipic footlipic1 footlipic01"></a>
+			</div>
+			<!-- 联系人 -->
+			<div id="lianxiren" class="huihua disappear">
+				<div class="huihuatop">联系人<span colorindex="1" class="yifu"></span></div>
+				<div class="huihuacon lianxirencon">
+					<!-- 好友 群 讨论组 -->
+					<ul class="lxrtop">
+						<li lxrappear="haoyou" class="lxrtopli lxrtoplicolor"><a class="lxrtopa">好友</a></li>
+						<li lxrappear="qun" class="lxrtopli "><a class="lxrtopa">群</a></li>
+						<li lxrappear="taolunzu" class="lxrtopli "><a class="lxrtopa">讨论组</a></li>
+					</ul>
+					<!-- 好友 -->
+					<ul  id="haoyou" class="friend" >
+						<li isshow="true" class="group">
+							<div class="groupinner">
+								<a class="groupic"></a>
+								<span class="groupname">classmate</span>
+								<span class="groupnum">32/56</span>
+							</div>
+							<ul  class="lxrconul">
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/jiangjiang.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName"> 江晓玲</a>
+										<span class="chatNameA">(梦做一半也不美。)</span>
+										<a class="chatInfo">[在线] 测试测试。。。</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/gui.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName"> 小鬼</a>
+										<span class="chatNameA">(狗史燕窝)</span>
+										<a class="chatInfo">[在线] wanan</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/xiaoyuke.jpg"></a>
+									<div class="chatARight">
+										<a class="chatName">小羽柯</a>
+										<span class="chatNameA">（翎）</span>
+										<a class="chatInfo">[在线] </a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/pan.jpg"></a>
+									<div class="chatARight">
+										<a class="chatName">潘玥城</a>
+										<span class="chatNameA">(玥~若熙)</span>
+										<a class="chatInfo">好好学习</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/xinjiang.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName">大新疆</a>
+										<span class="chatNameA">（单曲循环）</span>
+										<a class="chatInfo">[离线]YOGAYOGA</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/taozi.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName"> 桃子君</a>
+										<span class="chatNameA">(烂桃子)</span>
+										<a class="chatInfo">[离线]</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/qianqian.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName">浅浅</a>
+										<span class="chatNameA">（青丘白深）</span>
+										<a class="chatInfo">东瓶西镜放，恨不能遗忘。</a>
+									</div>
+								</div>
+						
+							</ul>
+						</li>
+						<li isshow="true" class="group">
+							<div class="groupinner">
+								<a class="groupic"></a>
+								<span class="groupname">family</span>
+								<span class="groupnum">8/26</span>
+							</div>
+							<ul  class="lxrconul">
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/piaoxiang.jpg"></a>
+									<div class="chatARight">
+										<a class="chatName">老爸</a>
+										<span class="chatNameA">（飘香居士）</span>
+										<a class="chatInfo"></a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/xiao.jpg"></a>
+									<div class="chatARight">
+										<a class="chatName"> 蒋潇</a>
+										<span class="chatNameA">(つ    愿       ˉ)</span>
+										<a class="chatInfo">、        喜欢上了指南针.</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/xiaoyi.jpg"></a>
+									<div class="chatARight">
+										<a class="chatName">小姨</a>
+										<span class="chatNameA">(晗晴)</span>
+										<a class="chatInfo">[在线] </a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/yuweigu.jpg"></a>
+									<div class="chatARight">
+										<a class="chatName">鱼尾骨</a>
+										<span class="chatNameA">(魔域苍龙)</span>
+										<a class="chatInfo">[在线]</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/cheng.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName">周宇程</a>
+										<span class="chatNameA">(~AU.-E幻X影O-)</span>
+										<a class="chatInfo">[离线]呼呼</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/taozi.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName"> 桃子君</a>
+										<span class="chatNameA">(烂桃子)</span>
+										<a class="chatInfo">[离线]</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/qianqian.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName">浅浅</a>
+										<span class="chatNameA">（青丘白深）</span>
+										<a class="chatInfo">东瓶西镜放，恨不能遗忘。</a>
+									</div>
+								</div>
+								
+							</ul>
+						</li>
+						<li isshow="true" class="group">
+							<div class="groupinner">
+								<a class="groupic"></a>
+								<span class="groupname">schoolmate</span>
+								<span class="groupnum">57/96</span>
+							</div>
+							<ul  class="lxrconul">
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/jiangjiang.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName"> 江晓玲</a>
+										<span class="chatNameA">(梦做一半也不美。)</span>
+										<a class="chatInfo">[在线] 测试测试。。。</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/gui.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName"> 小鬼</a>
+										<span class="chatNameA">(狗史燕窝)</span>
+										<a class="chatInfo">[在线] wanan</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/xiaoyuke.jpg"></a>
+									<div class="chatARight">
+										<a class="chatName">小羽柯</a>
+										<span class="chatNameA">（翎）</span>
+										<a class="chatInfo">[在线] </a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/pan.jpg"></a>
+									<div class="chatARight">
+										<a class="chatName">潘玥城</a>
+										<span class="chatNameA">(玥~若熙)</span>
+										<a class="chatInfo">好好学习</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/xinjiang.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName">大新疆</a>
+										<span class="chatNameA">（单曲循环）</span>
+										<a class="chatInfo">[离线]YOGAYOGA</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/taozi.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName"> 桃子君</a>
+										<span class="chatNameA">(烂桃子)</span>
+										<a class="chatInfo">[离线]</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/qianqian.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName">浅浅</a>
+										<span class="chatNameA">（青丘白深）</span>
+										<a class="chatInfo">东瓶西镜放，恨不能遗忘。</a>
+									</div>
+								</div>
+						
+							</ul>
+						</li>
+						<li isshow="true" class="group">
+							<div class="groupinner">
+								<a class="groupic"></a>
+								<span class="groupname">blacklist</span>
+								<span class="groupnum">3/8</span>
+							</div>
+							<ul  class="lxrconul ">
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/jinyu.jpg"></a>
+									<div class="chatARight">
+										<a class="chatName">杨丽洁</a>
+										<span class="chatNameA">（水中花）</span>
+										<a class="chatInfo">[离线]</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/huanyue.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName">袁慧</a>
+										<span class="chatNameA">（(幻玥)）</span>
+										<a class="chatInfo">[离线]</a>
+									</div>
+								</div>
+								<div   class="chatA lxrconulcon" >
+									<a class="chatAHeader"><img src="image/wang.jpg"> </a>
+									<div class="chatARight">
+										<a class="chatName"> 王亦舸</a>
+										<span class="chatNameA">(來鍺可追)</span>
+										<a class="chatInfo">[离线]</a>
+									</div>
+								</div>
+							</ul>
+						</li>
+					</ul>
+					<!-- 群 -->
+					<ul id="qun" class="friend disappear"  >
+						<li class="groupsli" >
+							<a class="groupsa"></a>
+							<span> ㈦ヽs7ven</span>
+						</li>
+						<li class="groupsli" >
+							<a class="groupsa"></a>
+							<span>宜兴实验中学05届11班</span>
+						</li>
+						<li class="groupsli" >
+							<a class="groupsa"></a>
+							<span>遗世清贫</span>
+						</li>
+						<li class="groupsli" >
+							<a class="groupsa"></a>
+							<span>淮师计科无锡群</span>
+						</li>
+						<li class="groupsli" >
+							<a class="groupsa"></a>
+							<span>吴青峰吧江苏后援会</span>
+						</li>
+						<li class="groupsli" >
+							<a class="groupsa"></a>
+							<span> 1103~淮师计科</span>
+						</li>
+						<li class="groupsli" >
+							<a class="groupsa"></a>
+							<span> 江南小女子~~</span>
+						</li>
+						<li class="groupsli" >
+							<a class="groupsa"></a>
+							<span>淮师CSDN高校俱乐部</span>
+						</li>
+					</ul>
+					<!-- 讨论组 -->
+					<ul  id="taolunzu" class="friend disappear">
+						<li class="groupsli" >
+							<a class="talk"></a>
+							<span> Miss.灭绝、冰灵、蝉想</span>
+						</li>
+						<li class="groupsli" >
+							<a class="talk"></a>
+							<span>角落里的蘑菇、蝉想、木..</span>
+						</li>
+					</ul>			
+				</div>			
+			</div>
+			<!-- 发现-->
+			<div id="faxian" class="huihua disappear">
+				<div class="huihuatop">发现<span colorindex="1" class="yifu"></span></div>
+				<div class="huihuacon">
+					<ul class="findcon">
+						<li class="findli">
+							<a class="findpic findpic01"></a>
+							<a class="findword">QQ空间</a>
+						</li>
+						<li class="findli">
+							<a class="findpic findpic02"></a>
+							<a class="findword">QQ邮箱</a>
+						</li>
+						<li class="findli">
+							<a class="findpic findpic03"></a>
+							<a class="findword">腾讯网</a>
+						</li>
+					</ul>
+				</div>	
+			</div>
+			<!-- 设置 -->
+			<div id="shezhi" class="huihua disappear">
+				<div class="huihuatop">设置<span colorindex="1" class="yifu"></span></div>
+				<div class="huihuacon">
+					
+				</div>	
+			</div>
+			<ul id="footer">
+					<li footerappear="huihua" class="footerli footl">
+						<a class="footlipic footlipic1 footlipichuihua"></a>
 						<span class="footlitxt">会话</span>
 					</li>
-					<li class="footerli">
-						<a class="footlipic footlipic2"></a>
+					<li footerappear="lianxiren" class="footerli">
+						<a class="footlipic footlipic2 "></a>
 						<span class="footlitxt">联系人</span>
 					</li>
-					<li class="footerli ">
-						<a class="footlipic footlipic3"></a>
+					<li footerappear="faxian" class="footerli ">
+						<a class="footlipic footlipic3 "></a>
 						<span class="footlitxt">发现</span>
 					</li>
-					<li class="footerli footr">
-						<a class="footlipic footlipic4"></a>
+					<li footerappear="shezhi" class="footerli footr">
+						<a class="footlipic footlipic4 "></a>
 						<span class="footlitxt">设置</span>
 					</li>
-			</ul>
-				
-			</div>
+			    </ul>	
 		</div>
-		<div id="bottom"></div>
+		<div id="bottom">
+			<a id="jtleft" style=""></a>
+			<a id="jtright"></a>
+			<a id="yijianfankui">意见反馈</a>
+		</div>
 	</div>
 </body>
 </html>
