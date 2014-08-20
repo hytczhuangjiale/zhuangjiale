@@ -12,17 +12,19 @@ $(function(){
 	$(".foodtp").click(function(){
 		var open;
 		open=$(this).attr("openindex");
-		if(open=='false')
-		 {
+		if(open=='false') 
+		 { 
 			$(this).next().show(1000);
 	 		$(this).next().next().show(1000);
 	 		open=$(this).attr("openindex",true);
-		 }else if(open=='true'){
+	 		return false;
+		 }else
+		 {
 		 	$(this).next().hide(500);
  	 		$(this).next().next().hide(500);
  	 		open=$(this).attr("openindex",false);
-		};
- 	   
+ 	 		return false;
+		}
 	});	
 	
 	$(".foodli").hover(function(){
