@@ -2,7 +2,7 @@
 ul,li{list-style: none;}
 a{text-decoration: none;}
 img{border:0;}
-body{background-color: rgb(167, 205, 241);}
+body{background-color: rgb(167, 205, 241);overflow-x: hidden;overflow-y: hidden;}
 
 /*top start*/
 #top{width: 100%;min-width: 1366px;height: 47px;color: #184382;overflow: hidden;position: relative;margin: 0 auto;background-image: url("images/bg_body_right.jpg");background-repeat: no-repeat;background-position: right;}
@@ -94,14 +94,78 @@ body{background-color: rgb(167, 205, 241);}
 .disappear{display: none;}
 
 /*content rit*/
-#label{width: 1191;height: 26px;}
+#label{width: 1191;height: 26px;position: relative;}
 
-#label span{width: 125px;height: 26px;display: block;border:1px solid gray;border-top: 0;border-top-right-radius: 3px;border-top-left-radius: 3px;background-image: url("images/bg_tablist.png");background-position: 0 -26px;background-repeat: repeat-x;}
-.labeltxt{display: block;float: left;height: auto;width: auto;color: rgb(50, 71, 92);cursor: default;display: inline;font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;height: auto;line-height: 24px;padding-left: 7px;}
-
-
-
-
-
-
+.kong{width: 125px;height: 24px;float: left;}
+#label span{float: left;width: 125px;height: 24px;display: block;border:1px solid gray;border-top: 0;border-bottom: 0;border-top-right-radius: 3px;border-top-left-radius: 3px;background-image: url("images/bg_tablist.png");background-position: 0 -26px;background-repeat: repeat-x;}
+#label a{position: absolute;left: 127px;top:1px;z-index: 8;font-weight: bold;float: left;width: 125px;height: 26px;display: block;border-top:1px solid gray;border-right:1px solid gray;border-left: 0;border-top-right-radius: 3px;border-top-left-radius: 3px;background-color: #fff;background-position: 0 -26px;background-repeat: repeat-x;}
+.labeltxt{display: block;float: left;height: auto;width: auto;color: rgb(50, 71, 92);cursor: default;display: inline;font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;height: auto;line-height: 22px;padding-left: 7px;}
+.close{background-image: url("images/sg_picskin.gif");background-position: -135px -60px;background-repeat: no-repeat;color: rgb(24, 67, 130);cursor: auto;display: block;height: 8px;width: 8px;float: right;margin-right:5px;margin-top:8px;}
 #conrin{height: 596px;width: 1190px;overflow-x: hidden;overflow-y: hidden;background-color: rgb(255, 255, 255);border-left:1px solid rgb(142, 179, 214);color: #000;display: block;font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;line-height: 16px;margin-top: -2px;}
+#conrintop{position: relative;z-index:5;background-image: url("images/bg_tablist_big.gif");background-repeat: repeat-x ;background-position: 0;display: block;font-size: 12px;height: 36px;width: 1190px;line-height: 16px;}
+#conrintop1{width: 1034px;height: 36px;margin: 6px 0 0 7px;float: left;}
+#conrintop2{color: rgb(24, 67, 130);float: right;font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;height: 16px;width: 133px;line-height: 16px;margin: 0px 7px 0px 0px;padding: 10px 0px 6px 0px;}
+#conrintop2 span a:hover{text-decoration: underline;}
+.fenlan{background-image: url("images/sg_icon_17.gif");background-position: 0px -200px;background-repeat: no-repeat;cursor: auto;display: inline-block;float: right;height: 18px;width: 18px;line-height: 16px;}
+
+#span1{height: auto;width: auto;position: relative;z-index: 10;float: left;}
+.checkbox{position: relative;width: 45px;height: 24px;display: block;float: left;background-attachment: scroll;border-collapse: collapse;background-image: url("images/bitbtn.png");background-repeat: repeat-x;border-right: 1 solid  #97b7d7;border-bottom: 1 solid  #97b7d7;border-radius: 3px;}
+.checkbox:hover{box-shadow: -1px -1px 2px #184382;}
+.cbpic1{position: absolute;left: 10px;top:5px;display: block;width: 11px;height: 11px;}
+.cbpic2{display: block;background: url("images/sg_icon_16.gif"); background-repeat:no-repeat; background-position: 0 -240px;cursor: pointer;position: absolute;right: 5px;top:8px;height:11px;width: 11px;}
+.checkboxul{left:0px;top: 25px;position: absolute;display:none; width: 59px; height: auto;border: 1px solid #bcbcbc;border-radius: 4px;box-shadow: 0 4px 10px #ccc;background-color: #fff;z-index: 10}
+.checkboxul li{color: rgb(0, 0, 0);display: list-item;font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;height: auto;width: auto;line-height: 20px;}
+.checkboxul li a{color: rgb(24, 67, 130);cursor: auto;display: block;height: auto;width: auto;text-indent: 10px}
+.checkboxul li:hover{background-color: rgb(242,242,242);}
+
+.checkboxul3{width: 140px;}
+.checkboxul4{width: 140px;}
+.checkboxul5{width: 140px;}
+.checkboxul6{width: 120px;}
+
+
+
+#span2{height: auto;width: auto;position: relative;z-index: 10;float: left;margin-left: 7px}
+.delete{width: 59px;height: 24px;position: relative;display: block;float: left;background-attachment: scroll;border-collapse: collapse;background-image: url("images/bitbtn.png");background-repeat: repeat-x;border-right: 1 solid  #97b7d7;border-bottom: 1 solid  #97b7d7;border-radius: 3px;}
+.delete1{background-image: url("images/sg_icon_17.gif");background-position: -40px -60px;background-repeat: no-repeat;position: absolute;top: 5px;left: 5px;cursor: pointer;display: block;font-size: 12px;height: 15px;width: 15px;}
+b1{cursor: pointer;display: block;font-family: 宋体;font-size: 12px;height: 16px;line-height: 16px;padding: 5px 5px;float: right;vertical-align: middle;width: 30px;font-weight: normal;}
+.jubao{width: 42px;height: 24px;position: relative;display: block;float: left;background-attachment: scroll;border-collapse: collapse;background-image: url("images/bitbtn.png");background-repeat: repeat-x;border-right: 1 solid  #97b7d7;border-bottom: 1 solid  #97b7d7;border-radius: 3px;}
+.delete:hover{box-shadow: -1px -1px 2px #184382;}
+.jubao:hover{box-shadow: -1px -1px 2px #184382;}
+.remove:hover{box-shadow: -1px -1px 2px #184382;}
+.biaoji:hover{box-shadow: -1px -1px 2px #184382;}
+
+p{cursor: pointer;display: block;font-family: 宋体;font-size: 12px;height: 16px;line-height: 16px;padding-top: 5px;padding-left: 10px;float: left;vertical-align: middle;width: 30px;font-weight: normal;}
+#span3{height: auto;width: auto;position: relative;z-index: 10;float: left;margin-left: 7px}
+.remove{width:53px;height: 24px;position: relative;display: block;float: left;background-attachment: scroll;border-collapse: collapse;background-image: url("images/bitbtn.png");background-repeat: repeat-x;border-bottom: 1 solid  #97b7d7;border-radius: 3px;}
+
+#span4{height: auto;width: auto;position: relative;z-index: 10;float: left;}
+.biaoji{width:53px;height: 24px;position: relative;display: block;float: left;background-attachment: scroll;border-collapse: collapse;background-image: url("images/bitbtn.png");background-repeat: repeat-x;border-bottom: 1 solid  #97b7d7;}
+.paixu{border-right: 1 solid  #97b7d7;border-radius: 3px;}
+.restart{width: 29px;height: 24px;}
+.restart1{background-image: url("images/sg_icon_17.gif");background-position: -20px -60px;background-repeat: no-repeat;position: absolute;top: 5px;left: 7px;cursor: pointer;display: block;font-size: 12px;height: 15px;width: 15px;}
+
+
+/*邮件*/
+#conrinbottom{position: relative;z-index: 0;width: 1190px;height: 512px;overflow-y:auto;}
+.title1{border-bottom: 2px solid rgb(247, 247, 247);color: rgb(0, 0, 0);display: block;font-family: 宋体;font-size: 12px;height: 20px;line-height: 20px;padding-left: 10px;width: 1163px;}
+.title1 strong{font-weight: bold;margin-left: 4px;}
+.title1 em{font-style: normal;}
+
+.comemail{border-bottom: 1px solid rgb(247, 247, 247);font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;height: 25px;width: 1173px;line-height: 16px;vertical-align: middle;color: #000;}
+.comemail1{width: 120px;height:18px;float:left;padding-top: 6px;}
+.comemail2{width: 155px;height:24px;float: left;}
+.comemail3{width: 739px;height:24px;float: left;}
+.comemail4{width:150px;height:24px;float: right;}
+.move{float: left;width:6px ;height: 14px;display: block;font-weight: lighter;background: url("images/sg_icon_16.gif") ;background-repeat: no-repeat;background-position: -20px -20px;margin:0px 3px 0 5px;}
+.check{float: left;display: block;}
+.icon_email{background-image: url("images/sg_icon_16.gif");background-position: 0px 0px;background-repeat: no-repeat;color: rgb(24, 67, 130);cursor: pointer;display:inline-block;height: 14px;width: 14px;}
+.icon_emailnot{background-image: url("images/sg_icon_16.gif");background-position: -140px 0px;background-repeat: no-repeat;color: rgb(24, 67, 130);cursor: pointer;display:inline-block;height: 14px;width: 14px;}
+.icon_hxz{background-image: url("images/sg_icon_16.gif");background-position: -240px 0px;background-repeat: no-repeat;color: rgb(24, 67, 130);cursor: pointer;display:inline-block;height: 14px;width: 14px;}
+.icon_starnot{margin-left: 1px;background-image: url("images/sg_icon_16.gif");background-position: -200px 0px;background-repeat: no-repeat;color: rgb(24, 67, 130);cursor: pointer;display:inline-block;height: 14px;width: 14px;}
+.sender{width: 155px;height: 24px;display: block;float: left;color: rgb(51, 51, 51);cursor: auto;font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;font-weight: bold;height: 26px;color: #000;line-height: 26px;}
+.emailname{width: 680px;height: 24px;display: block;float: left;color: rgb(51, 51, 51);cursor: auto;font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;font-weight: bold;height: 26px;color: #000;line-height: 26px;}
+.tag{background-image: url("images/sg_icon_16.gif");background-position: -280px -19px;background-repeat: no-repeat;color: rgb(51, 51, 51);cursor: auto;display: block;float: left;height: 14px;width: 14px;outline-width: 0px;margin-top: 5px;}
+p2{ color: rgb(51, 51, 51);cursor: pointer;display: block;font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;float: left;height: 20px;line-height: 20px;margin-left: 8px;margin-top: 3px;width: 50px;}
+.wztz{background-color: rgb(200, 107, 107);border-radius: 3px;border-bottom-right-radius: 3px;color: #fff;cursor: pointer;display: block;font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;height: 20px;margin-top: 3px;text-indent: 4px;float: right;height: 20pxvertical-align: middle;width: 56px;}
+.sxxx{background-color: rgb(254, 174, 48);border-radius: 3px;border-bottom-right-radius: 3px;color: #fff;cursor: pointer;display: block;font-family: Verdana, 宋体, Helvetica, sans-serif;font-size: 12px;height: 20px;margin-top: 3px;text-indent: 4px;float: right;height: 20pxvertical-align: middle;width: 56px;}
