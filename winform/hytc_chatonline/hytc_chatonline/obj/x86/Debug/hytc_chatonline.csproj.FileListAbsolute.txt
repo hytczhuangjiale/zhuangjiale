@@ -1,0 +1,7 @@
+E:\hytc_chatonline\hytc_chatonline\bin\Debug\hytc_chatonline.exe
+E:\hytc_chatonline\hytc_chatonline\bin\Debug\hytc_chatonline.pdb
+E:\hytc_chatonline\hytc_chatonline\obj\x86\Debug\hytc_chatonline.Form1.resources
+E:\hytc_chatonline\hytc_chatonline\obj\x86\Debug\hytc_chatonline.Properties.Resources.resources
+E:\hytc_chatonline\hytc_chatonline\obj\x86\Debug\hytc_chatonline.csproj.GenerateResource.Cache
+E:\hytc_chatonline\hytc_chatonline\obj\x86\Debug\hytc_chatonline.exe
+E:\hytc_chatonline\hytc_chatonline\obj\x86\Debug\hytc_chatonline.pdb
