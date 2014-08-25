@@ -7,7 +7,7 @@ body{ background-image: url("images/01.jpg"); background-size: 100% 110%;transit
 ::-webkit-scrollbar {width: 5px;}
 ::-webkit-scrollbar-thumb {border-radius: 10px;background: rgba(1,1,1,0.5);opacity: 0.8;}
 
-#qqchat{width: 280px;height: 580px;margin-left:200px;}
+#qqchat{width: 280px;height: 580px;margin-left:200px;float: left;}
 #top{width:240px;height:75px;padding: 2px 20px 2px 20px;}
 #top1{width: 240px;height: 46px;}
 #top2{height: 15px;margin-top: 6px;line-height: 22px;}
@@ -124,3 +124,60 @@ body{ background-image: url("images/01.jpg"); background-size: 100% 110%;transit
 #jtright{position: absolute;cursor: pointer;display: block;width: 19px;height: 19px;background-image: url("images/arrow.png");background-position: -25px -2px;top: 25px;left: 30px;}
 #jtright:hover{background-position:-25px -42px}
 #yijianfankui{ cursor: pointer; position: absolute; width: 80px; height: 17px; display: block; font-size: 12px; line-height: 17px; font-family: "微软雅黑"; text-align: center; top: 25px; left: 100px; color: #FFF; background-color: rgba(0,0,0,0.3); border-radius: 7px;}
+
+
+/******/
+#chatall{width: 780px; height: 0px; float: right; margin-left: 20px;position: relative;}
+
+.talkarea{ width: 700px; height: 500px; border: 1px solid #000; border-radius: 7px; position: absolute; left: 30px; top: 70px;}
+.talktop{ width: 700px; height: 45px; background-image: linear-gradient(#555, #222);  border-top-left-radius: 6px; border-top-right-radius: 6px;}
+
+.tip{width: 700px;height:80px;position: relative;overflow: hidden;background-color:rgb(233, 233, 233);}
+.tipul{top:-80px;display: block;float: left;position: absolute;width: 700px;height: 80px;background: #3c3c3c;box-shadow: #141111 0 2px 5px;}
+.tipul li{background-color: #000;background-image: linear-gradient(rgb(78, 78, 78), rgb(44, 44, 44));background-origin: padding-box;background-size: auto;border-left: 1px solid rgb(85, 85, 85);border-right: 1px solid rgb(34, 34, 34);color: rgb(255, 255, 255);cursor: pointer;display: list-item;float: left;font-family: 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;height: 80px;line-height: 12px;text-align: center;width: 80px;}
+.tippic{background-repeat: no-repeat;color: rgb(255, 255, 255);cursor: pointer;display: block;height: 40px;width: 40px;margin: 10px 20px 5px 20px;}
+.tippic1{background-image: url("images/menu_icons.png");background-position: -128px 3px;}
+.tippic2{background-image: url("images/menu_icons.png");background-position: -43px 2px;}
+.tippic3{background-image: url("images/menu_icons.png");background-position: -90px 2px;}
+
+
+.talkcon{ width: 700px; height: 455px;background-color: #e9e9e9; position: relative; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;}
+.TalkBottom{ position: absolute; top: 405px; width: 684px; height: 42px; background-image: linear-gradient(#555, #222);  border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; padding: 3px 10px 5px 6px;}
+.talktap{width: 49px; height: 19px; border: 1px solid #2C2727; border-radius: 3px; float: left; margin:5px 0 7px 15px;  padding: 6px 10px 6px 10px; cursor: pointer;background-image: linear-gradient(#555, #222);}
+.talktap a{ width: 14px; height: 14px; background-image: url("images/TalkTop01.png"); background-size: 100% 100%; background-repeat: no-repeat; display: block;}
+.talkname{ float: left; width: 371px; height: 19px; padding: 13px 30px 13px 20px; text-align: center; color: #FFF; font-size: 18px; font-weight: bold;}
+.talkclose{width: 61px; height: 19px; margin: 5px 10px 7px 0; padding: 6px 10px 6px 10px; float: right;font-size: 14px; font-family: "微软雅黑"; text-align: center; display: block;border: 1px solid #2C2727; border-radius: 3px; text-decoration: none;color: #FFF;cursor: pointer;background-image: linear-gradient(#555, #222);}
+.TTMin{width: 61px; height: 19px; margin: 5px 10px 7px 0; padding: 6px 10px 6px 10px; float: right;font-size: 14px; font-family: "微软雅黑"; text-align: center; display: block;border: 1px solid #2C2727; border-radius: 3px; text-decoration: none;color: #FFF;cursor: pointer;background-image: linear-gradient(#555, #222);}
+.TBFace{ width:38px; height: 32px; float: left; padding: 5px; cursor: pointer;}
+.TBFacePic{width: 30px; height: 30px; display: block; background-image: url("images/TalkBottom01.png"); background-size: 30px 30px;}
+.TBInput{display: block; width: 558px; height: 32px; border-radius: 5px; padding: 5px 10px 5px 10px; margin: 5px 10px 5px 6px; float: left;background: none repeat scroll 0% 0% #F9F9F9;box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2) inset;font-family: "微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 16px;}
+.TBBtn{cursor: pointer; padding: 3px 10px 3px 10px; border-radius: 5px; border: 1px solid #044062; float: right; background-image: url("images/btnsend.png"); background-repeat: repeat-x; text-shadow: rgb(25, 75, 126) 0px 1px 1px;}
+.TBBtn span{width: 34px; height: 28px; font-size: 14px; color: #fff; display: block; line-height: 28px;}
+
+
+/*聊天内容*/
+.TalkDesContent{ width: 700px; height: 405px; position: absolute; overflow: auto;}
+.TalkDesContentA{ width: 680px; min-height: 66px; height: auto; float: right; padding: 10px;}
+.TCAHeader{ width: 40px; height: 40px; background-image: url("../images/MyHeader.jpg"); float: right; margin-left: 10px;}
+.TCALeft{ width: 600px; float: right;}
+.TCALNickName{ font-size: 14px; height: 14px; width: 600px; text-align: right; font-family: "微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;text-shadow: #FFF 1px 1px 1px;}
+.TCALWords{background: linear-gradient(#FFF, #E1E1E1) repeat scroll 0% 0% transparent; font-family: "微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif; max-width: 340px; padding: 10px 15px 10px 15px; margin-top: 10px; display: inline-block; float: right; font-size: 16px; line-height: 22px; border-radius: 8px; background-color: #FFF; border: 1px solid #000;}
+
+/*qqimages*/
+.qqimages{display: none; cursor: pointer; width: 700px; height: 310px; border-bottom-right-radius: 6px;border-bottom-left-radius: 6px; position: absolute; top: 145px;}
+.qqimagesArea{ width: 700px; height: 280px; }
+.qqimagesA01{ background-image: url("images/qqimage_01.jpg"); background-size: 700px 280px;}
+.qqimagesA02{ background-image: url("images/qqimage_02.jpg"); background-size: 700px 280px;}
+.qqimagesA03{ background-image: url("images/qqimage_03.jpg"); background-size: 700px 280px;}
+.qqimagesA04{ background-image: url("images/qqimage_04.jpg"); background-size: 700px 280px;}
+.qqimagesA05{ background-image: url("images/qqimage_05.jpg"); background-size: 700px 280px;}
+.qqimagesA06{ background-image: url("images/qqimage_06.jpg"); background-size: 700px 280px;}
+.qqimagesSelect{ width: 700px; height: 30px; padding: 0 300px 0 300px;}
+.qqISIcon{ display: block; width: 15px; height: 15px; border-radius: 7.5px; background-color: gray; float: left; margin: 5px 5px 10px 5px;}
+.qqISIconClick{background-color:#000;}
+.qqimageEve{ width: 98px; height: 90px; float: left; cursor: pointer;border: 1px solid rgba(202,206,207,0);}
+.qqimageEve:hover{border: 1px solid rgb(95,156,197);}
+/*qqimages  end*/
+
+/*聊天框end*/
+

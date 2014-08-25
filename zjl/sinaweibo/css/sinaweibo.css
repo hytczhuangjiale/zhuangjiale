@@ -1,0 +1,232 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+img{border:0;}
+body{background-image: url("images/bodybg.jpg");background-color: #8ab52d;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: center top;}
+
+/*top*/
+#top{  font-size: 12px;text-align: left;width: 100%; height: 39px; position: fixed; z-index: 99; background-image: url("images/bg_nav.png"); background-repeat: repeat-x;}
+#topT{ background-image: url("images/bg_lines.png"); background-position: 50% 38px; background-repeat: repeat-x;}
+#topMain{ width: 980px; height: 100%; margin: 0 auto;}
+.TopLogo{ float: left; width: 190px; height: 39px; margin-left: -27px; display: block;background-image: url("images/bg_line.png"); background-position:-548px -4px; background-repeat: no-repeat;}
+.topMainLeft1{ position: relative; float: left; width: 280px; height: 38px;}
+.topMainLeft1All{ width: 69px; height: 38px; float: left; }
+.topMainLeft1Title{  width: 28px; *width: 70px; height: 16px; *height: 38px; padding: 11px 20px;  display: block; float: left; color: #fff; font-size: 14px; line-height: 16px; border: 1px solid transparent;}
+.topMainLeft1Title3{ background-color: #fff; border: 1px solid rgb(51, 51, 51); border-top: 0; border-bottom: 1px solid #fff; color: #000; z-index: 12; position: relative;}
+.topMainLeft1Titles{ background-image: url("images/bg_nav.png"); background-position: 0 -76px; background-repeat: repeat-x;}
+.topMainLeft1Titles:hover{ background-color: transparent; border: 1px solid transparent; color: #fff;}
+.topMainLeft1Title span{ display: block;}
+.topMainLeft1Content{ width: 608px; height: 238px; display: none; background-color: #fff; position: absolute; z-index: 11; top:38px; left: 0; border:1px solid rgb(51, 51, 51); }
+.topMainLeft1Content img{ width: 588px; height: 228px;}
+.Topsearchs{ position: relative; text-align: left; float: left; width: 235px; height: 24px; margin: 7px 0 0 25px; background-image: url("images/bg_lines.png"); background-position: 0 -5px;}
+.Topsearchs input{ width: 193px; height: 15px; margin: 5px 0 0 10px; border: 0; background-color: transparent;}
+.Topsearchs:hover{ background-position: -237px -5px;} 
+.TopsearchsContent{text-align:left;display: none; background-color: #fff; width: 232px; height: 230px; *height: 240px; padding-top: 10px; border:1px solid rgb(51, 51, 51); position: absolute; top:27px; left: 0;}
+.TopsearchsContent a{font-size: 12px; text-align: left;width: 192px; *width: 232px; height: 14px; *height: 22px; display: block; padding: 4px 20px; color: rgb(51, 51, 51); line-height: 13.5px;}
+#specialcolor{color: #0078b6;}
+.TopsearchsContent a:hover,.topMainRight1All2Content a:hover{ background-color: rgb(230,230,230);}
+.topMainRight1{ width: 266px; height: 38px; float: right; }
+
+.topMainRight1All{ float: left; width: auto; height: 38px; }
+.topMainRight1Title{ width: auto; height: 16px; *height: 38px; padding: 10px 10px;  display: block; float: left; color: #fff; font-size: 12px; line-height: 16px; border: 1px solid transparent;}
+.topMainRight1Title:hover{ background-image: url("images/bg_nav.png"); background-position: 0 -33px;}
+.topMainRight1All2{  float: left; width: 42px; height: 38px; position: relative;  text-align: left;}
+.topMainRight1Title2{width: 30px; height: 27px; *width: 42px; *height: 38px; display: block; padding: 11px 0 0 12px; position: relative; z-index: 2;} 
+
+.topMainRight1Title2 span{ width: 16px; height: 16px; display: block; background-image: url("images/icon.png"); background-repeat: no-repeat;}
+.topMainRight1Title2Span1{ background-position: -49px 1px;}
+.topMainRight1Title2Span2{ background-position: -49px -149px;}
+.topMainRight1Title2Span3{ background-position: -50px -100px;}
+.topMainRight1Title2Span4{ background-position: -50px -174px;}
+.topMainRight1All2Content{ display: none; width: 150px; height: auto; background-color: #fff; border:1px solid rgb(51, 51, 51); position: absolute; top: 37px; right: -2px; *right: 0; z-index: 1}
+.topMainRight1All2Content li{ width: 150px; height: 26px;}
+.topMainRight1All2Content a{ display: block; width: 120px; *width: 150px; height: 26px; line-height: 26px; padding: 0 15px; color: rgb(51, 51, 51);}
+
+/*con*/
+#conout{color: rgb(51, 70, 63);display: block;font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;height: 3821px;line-height: 13.5px;min-width:1349px;width: 100%;padding-top: 40px;}
+#con{background-color: rgb(250, 250, 250);width: 980px;color: rgb(51, 70, 63);display: block;font-family: Arial, Helvetica, sans-serif;font-size: 12px;height: 3593px;line-height: 13.5px;margin: 0 auto;}
+#contop{color: rgb(51, 70, 63);display: block;font-family: Arial, Helvetica, sans-serif;font-size: 12px;height: 439px;width: 980px;line-height: 13.5px;}
+#header{background-image: url("images/013.jpg");background-position: 50% 100%;background-repeat: no-repeat;display: block;height: 300px;width: 980px;position: relative;}
+#person{background-color: rgb(255, 255, 255);color: rgb(51, 70, 63);display: block;font-family: Arial, Helvetica, sans-serif;font-size: 12px;height: 124px;width: 980px;line-height: 13.5px;padding-bottom: 15px;position: relative;}
+#headpic{height: 234px;left: 20px;top: -108px;width: 184px;position: absolute;box-shadow: 0 2px 4px rgba(0,0,0,0.3);}
+.pic{width: 184px;height: 184px;}
+.pic img{width: 184px;height: 184px;}
+.picul{color: rgb(51, 70, 63);display: block;font-family: Arial, Helvetica, sans-serif;font-size: 12px;height: 41px;width: 184px;line-height: 13.5px;margin-bottom: 4px;margin-top: 5px;}
+.picul li{border-top-color: rgb(198, 216, 159);color: rgb(51, 70, 63);display: list-item;float: left;font-family: Arial, Helvetica, sans-serif;font-size: 12px;height: 38px;width: 53px;line-height: 13.5px;padding-bottom: 3px;padding-left: 3px;padding-right: 3px;text-align: center;}
+.picli{border-right: 1px solid rgb(198, 216, 159);}
+.pica{color: rgb(51, 70, 63);cursor: auto;display: block;font-family: Arial, Helvetica, sans-serif;font-size: 12px;height: 38px;line-height: 13.5px;text-align: center;width: 53px;}
+.pica strong{cursor: auto;display: block;font-weight: 30;font-size: 20px;height: 20px;line-height: 20px;;margin-bottom: 5px;text-align: center;width: 53px;}
+.pica span{cursor: auto;display: inline;font-family: Arial, Helvetica, sans-serif;font-size: 12px;height: auto;line-height: 13.5px;text-align: center;width: auto;}
+.pica:hover{color: rgb(73, 151, 107);}
+
+#headtxt{color: rgb(51, 70, 63);display: block;font-family: Arial, Helvetica, sans-serif;font-size: 12px;height: 114px;width: 755px;line-height: 22px;margin-left: 225px;padding-top: 10px;position: relative;}
+.headtxtin{color: rgb(51, 70, 63);display: block;float: left;font-family: Arial, Helvetica, sans-serif;font-size: 12px;height: 114px;width: 550px;line-height: 22px;padding-right: 30px;}
+.headtxtin1{color: rgb(51, 70, 63);
+display: block;
+height: 30px;
+line-height: 22px;
+margin-bottom: 8px;
+width: 550px;}
+.name{color: rgb(51, 70, 63);
+display: block;
+float: left;
+font-family: 'Microsoft Yahei';
+font-size: 20px;
+height: 30px;
+line-height: 30px;
+margin-right: 3px;
+width: 149px;}
+.headnamerit{color: rgb(51, 70, 63);
+display: block;
+float: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+height: 19px;
+line-height: 14px;
+padding-top: 10px;
+width: 210px;}
+.headnamerit1{
+display: block;
+float: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+height: 11px;
+line-height: 14px;
+padding-bottom: 5px;
+width: 38px;
+background-image: url("images/level.png");
+background-repeat: no-repeat;
+background-position: 0px -15px;
+}
+.headnamerit1 a{
+background-image: url("images/level.png");
+background-origin: padding-box;
+background-position: 0px -190px;
+background-size: auto;
+color: rgb(73, 151, 107);
+cursor: auto;
+display: inline-block;
+margin-top: 4px;margin-left: 4px;
+height: 10px;
+line-height: 14px;
+width: 26px;
+}
+.headnamerit2{color: rgb(51, 70, 63);
+display: block;
+float: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+height: 14px;
+line-height: 14px;
+padding-bottom: 5px;
+width: 172px;
+}
+.headnamerit2 a{color: rgb(73, 151, 107);
+cursor: auto;
+display: inline;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+height: auto;
+line-height: 14px;
+text-decoration: none solid rgb(73, 151, 107);
+width: auto;}
+.headtxtin2{
+color: rgb(128, 128, 128);
+display:block;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+height: 14px;width: 550px;
+line-height: 14px;
+margin-bottom: 8px;
+overflow-x: hidden;
+overflow-y: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.headtxtin3{
+color: rgb(51, 70, 63);
+display: block;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+height: 24px;width: 550px;
+line-height: 22px;
+margin-bottom: 8px;
+position: relative;
+}
+.girl{background-image: url("images/bg_line.png");
+background-position: -25px -6px;
+background-repeat: no-repeat;
+background-size: auto;
+color: rgb(73, 151, 107);
+cursor: auto;
+display: inline-block;
+height: 13px;
+width: 13px;}
+.spanline{color: rgb(198, 216, 159);
+display: inline;
+height: auto;
+line-height: 24px;
+margin-left: 5px;
+margin-right: 9px;
+white-space: nowrap;
+width: auto;}
+.personli{color: rgb(73, 151, 107);
+cursor: auto;
+display: inline;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+height: auto;
+line-height: 24px;
+text-decoration: underline solid rgb(73, 151, 107);
+white-space: nowrap;
+width: auto}
+.arrow{display: inline-block;
+width: 7px;
+height: 4px;
+_height: 5px;
+margin: 0 0 0 5px;
+overflow: hidden;
+vertical-align: middle;
+font-size: 12px;
+line-height: 12px;
+line-height: 12px\0;
+}
+.arrow em{
+color: rgb(73, 151, 107);
+cursor: auto;
+display: inline-block;
+font-family: SimSun;
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+height: 12px;
+line-height: 12px;
+margin-bottom: 0px;
+margin-left: -2px;
+margin-right: 0px;
+margin-top: -7px;
+white-space: nowrap;
+width: 12px;
+}
+.headtxtin4{width: 95px;height: 22px;display: block;}
+.headtxtin4 a{
+border:1px solid rgb(217, 217, 217);
+border-radius: 2px;
+color: rgb(73, 151, 107);
+cursor: pointer;
+display: inline-block;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+height: 20px;
+line-height: 22px;
+text-decoration: none solid rgb(73, 151, 107);
+vertical-align: middle;
+width: 93px;}
+.headtxtin4 a span{color: #000;display: block;text-align: center;}

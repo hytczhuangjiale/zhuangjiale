@@ -120,6 +120,52 @@ $(".yifu").click(function(){
 		}
 	});
 
+	$(document).on("click", ".TBFace", function () {
+	//$(".TBFace").click(function(){
+			var isshow = $(this).parent().next().attr("isshow");
+			if(isshow=="no"){
+				$(this).parent().next().show();
+				$(this).parent().css("top","96px");
+				$(this).parent().next().attr("isshow","yes");
+				$(this).parent().parent().find(".TalkDesContent").css("height","96px");
+
+				//表情翻页
+				$(".qqISIcon").click(function(){
+					var changecss = $(this).attr("changecss");
+					//alert(changecss);
+					$(this).parent().parent().parent().parent().find(".qqimagesArea").addClass("disappear");
+					$(this).parent().parent().parent().parent().find("." + changecss).removeClass("disappear");
+					$(this).parent().parent().find(".qqISIcon").css("background-color","gray");
+					$(this).css("background-color","#000");
+				});
+			}
+			else{
+				$(this).parent().next().hide();
+				$(this).parent().css("top","");
+				$(this).parent().next().attr("isshow","no");
+				$(this).parent().parent().find(".TalkDesContent").css("height","");
+			}
+			
+		});
+//下拉
+ $(".talktap").click(function(){
+  var show=$(this).attr("isshow");
+  	if(show=='true')
+		{
+ 			//$(this).parent().next().css({"height":"80"});
+  			$(this).parent().next().find(".tipul").animate({"top":"0px"},300);
+  			show=$(this).attr("isshow",false);
+  			//return false;
+  		}
+  		else 
+		{
+			
+  			$(this).parent().next().find(".tipul").animate({"top":"-80px"},300);
+  			//$(this).parent().next().css({"height":"80"});
+			show=$(this).attr("isshow",true);
+		}
+  });
+
 });
 
 

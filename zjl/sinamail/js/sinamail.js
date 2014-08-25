@@ -65,7 +65,6 @@ $(".comemail").hover(function(){
 
 //全选
 $(".cbpic1").click(function(){
-	
 	var choose=$(this).attr("choose");
 	if(choose=='true')
 		{
@@ -85,14 +84,7 @@ $(".cbpic1").click(function(){
 	}
 });
 
-//删除
-$(".delete").click(function(){
-	$(".check").each(function(){
-		if($(this).is(':checked')){
-			$(this).parent().parent(".comemail").addClass("disappear");
-		}
-		});
-});
+
 //星标
 $(".staremail").click(function(){
 	$(".check").each(function(){
@@ -120,9 +112,75 @@ $(".unread").click(function(){
 		}
 		});
 });
-//回收站
-.rubbish{}
 
-
+//删除
+$(".delete").click(function(){
+	$(".check").each(function(){
+		if($(this).is(':checked')){
+			var a=$(this).parent().next().find(".sender").html();
+			var b=$(this).parent().parent().find(".emailname").html();
+			var c=$(this).parent().parent().find(".emailname").next().html();
+			var d=$(this).parent().parent().find("p2").html();	
+			$(this).parent().parent(".comemail").addClass("disappear");
+			showul(a,b,c,d);
+		}
+	});
 });
 
+
+//收件箱
+$(".receive").click(function(){
+	$(this).next().next().css({"background-image":"url('./css/images/bg_tablist.png')","background-position":"0 -26px","background-repeat":"repeat-x"});
+	$(this).css({"top":"1","background-color":"#fff","background-image":"none"});
+    $("#conrin").show();
+    $("#conrins").hide();
+});
+
+
+//回收站
+$(".rubbish").click(function(){ 
+	$(this).css({"background-color":"#fff","background-image":"none"});
+	$(this).prev().prev().css({"top":"0","background-color":"none","background-image":"url('./css/images/bg_tablist.png')","background-position":"0 -26px","background-repeat":"repeat-x"});
+    $("#conrin").hide();
+    $("#conrins").show();
+    
+	});
+
+});
+ 
+
+
+function showul(a,b,c,d){
+	
+	var html="";
+	html+='<div class="comemail">';
+	html+='<div class="comemail1">';
+	html+='<span class="move"></span>';
+	html+='<input class="check" type="checkbox">';
+	html+='<a href="#" class="icon_starnot"></a>';
+	html+='<a href="#"  class="icon_emailnot" ></a>';
+	html+='</div>';
+	html+='<div class="comemail2">';
+	html+='<a href="#" class="sender">'+a+'</a>';
+	html+='</div>';
+	html+='<div class="comemail3">';
+	html+='<a class="emailname" href="#" >'+b+'</a>';
+	html+=' <a class="wztz">'+c+'</a>';
+	html+='</div>';
+	html+='<div class="comemail4">';
+	html+='<a class="tag"></a>';
+	html+='<p2>'+d+'</p2>';
+	html+='</div>';
+	html+='</div>';
+	$("#conrinbottoms").append(html);
+
+}
+
+ 			
+ 	
+ 				  
+ 				  
+ 				   	
+ 				   	
+ 				   	
+ 				
